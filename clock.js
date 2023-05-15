@@ -1,12 +1,12 @@
 window.onload = function() {
     window.setInterval(function() {
-        var date = new Date();
+        const date = new Date();
 
-        var hours = date.getHours();
-        var minutes = date.getMinutes();
-        var seconds = date.getSeconds();
+        const hours = date.getHours();
+        const minutes = date.getMinutes();
+        const seconds = date.getSeconds();
 
-        var clock = hours + ":" + minutes + ":" + seconds;
+        const clock = hours + ":" + minutes + ":" + seconds;
         document.getElementById("clock").innerHTML = clock
     }
     )
